@@ -12,12 +12,13 @@
 // modello e prezzo ed un metodo che permetta di stampare la stringa "Modello: , Marchio: , Prezzo: e nuovo attributo"
 
 class Automobile{
+    // attributi
     public $marchio;
     public $modello;
     public $prezzo;
     public $motore;
     public static $counter=0;
-    
+    // funzione che viene invocata quando ISTANTIAMO un oggetto
     public function __construct($new_marchio, $new_modello, $new_prezzo, $new_motore){
         $this->marchio=$new_marchio;
         $this->modello=$new_modello;
